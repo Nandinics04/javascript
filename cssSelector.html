@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        h1{ /* element selector*/
+            color: chartreuse;
+        }
+        div{
+            background-color: bisque;
+        }
+        div#red{
+            background-color: antiquewhite;
+            color: red;
+            border:2px solid brown
+        }
+        span.class,h3{
+            background-color: aqua;
+            color: aliceblue;
+            border: 2px solid black;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+    </style>
+</head>
+<!--css selector used to select the elements in html for styling-->
+<body>
+    <div>
+        <h1>This is my CSS Selector page</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit necessitatibus facere quod quidem consequatur ratione atque commodi tenetur, fuga molestias dolorum sunt saepe accusantium pariatur veritatis distinctio nemo eveniet veniam.
+        </p>
+        <h1>This is other h1</h1>
+        <div id="red">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quidem quo soluta eos cupiditate obcaecati dicta atque est voluptates perferendis illo ad laborum explicabo facere? Asperiores doloremque cum inventore dolores?</p>
+        </div>
+        <h3>I am h3</h3>
+    </div>
+    <div>
+        <span class="class">First tag</span>
+        <span class="class">Second tag</span>
+        <span class="class">Third tag</span> 
+    </div>
+</body>
+</html>
